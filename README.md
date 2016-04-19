@@ -6,13 +6,14 @@ plugin available here https://github.com/cvillecsteele/lein-git-version/
 ## Description
 
 `versionator` is a lein plugin that generates a version number for
-your Clojure project.
+your Clojure project.  By default it creates version numbers that look
+like `0.5.54-g8081349`
 
-We also write a file with the _version_ and the _ref_ to a Clojure
-file.  The _version_ is the version number of the project, and the
-_ref_ is a reference to the underlying fully qualified version.  By
-default we use `git describe` for the version number and the git sha1
-for the ref, but that can be changed.
+We also write the _version_ and the _ref_ to a Clojure file.  The
+_version_ is the version number of the project, and the _ref_ is a
+reference to the underlying fully qualified version.  By default we
+use `git describe` for the version number and the git sha1 for the
+ref, but that can be changed.
 
 By default we write the file as `packagename/versionator.clj`
 
