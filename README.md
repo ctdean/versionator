@@ -60,7 +60,7 @@ Contact me with configuration questions.
 
 ## License
 
-Copyright © 2012 Colin Steele
-Copyright © 201r Chris Dean
+- Copyright © 2012 Colin Steele
+- Copyright © 2016 Chris Dean
 
 Distributed under the Eclipse Public License, the same as Clojure.
